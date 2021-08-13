@@ -3,5 +3,5 @@
 
 
 
-puts "Hello World!";
-puts "你好，世界"；
+puts "Hello World!"
+puts "你好，世界"
