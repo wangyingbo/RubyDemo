@@ -27,3 +27,16 @@ print <<"foo", <<"bar"          # 您可以把它们进行堆叠
 foo
     I said bar.
 bar
+
+
+# text =  <<`foo`            # 您可以把它们进行转存
+#     cat /etc/passwd
+# foo
+
+# puts text
+
+# File.open("/home/abc","w") do |io|
+#     io.write(text)
+# end
+# puts "------------------------"
+# exec "ls -al /home/ && cat /home/abc"
