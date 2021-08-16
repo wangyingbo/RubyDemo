@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 
+# https://www.runoob.com/ruby/ruby-comment.html
 
 puts "Hello World!"
 puts "你好，世界"
