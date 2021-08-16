@@ -20,6 +20,7 @@ puts "这是主 Ruby 程序"
 这还是注释。
 =end
 
+# https://www.runoob.com/ruby/ruby-datatypes.html
 
 a1=0
 a2=1_000_000

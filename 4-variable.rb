@@ -20,6 +20,7 @@ puts "这是主 Ruby 程序"
 这还是注释。
 =end
 
+# https://www.runoob.com/ruby/ruby-variable.html
 puts "-------------开始-------------\n"
 
 
