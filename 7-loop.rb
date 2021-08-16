@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # -*- coding: UTF-8 -*-
 
-
+# https://www.runoob.com/ruby/ruby-loop.html
 
 
 # 声明 code 会在程序运行之前被调用 
@@ -21,7 +21,64 @@ puts "这是主 Ruby 程序"
 =end
 
 puts "-------------开始-------------\n"
+$i = 0
+$num = 5
 
+# while $i < $num  do
+#    puts("*在循环语句中 i = #$i" )
+#    $i +=1
+# end
+
+# begin
+#    puts("**在循环语句中 i = #$i" )
+#    $i +=1
+# end while $i < $num
+
+# until $i > $num  do
+#    puts("***在循环语句中 i = #$i" )
+#    $i +=1;
+# end
+
+begin
+   puts("****在循环语句中 i = #$i" )
+   $i +=1;
+end until $i > $num
+
+# for i in 0..5
+#    puts "局部变量的值为 #{i}"
+# end
+
+# (0..5).each do |i|
+#    puts "局部变量的值为 #{i}"
+# end
+
+# for i in 0..5
+#    if i > 2 then
+#       break
+#    end
+#    puts "局部变量的值为 #{i}"
+# end
+
+# for i in 0..5
+#    if i < 2 then
+#       next
+#    end
+#    puts "局部变量的值为 #{i}"
+# end
+
+# for i in 0..5
+#    if i < 2 then
+#       puts "局部变量的值为 #{i}"
+#       redo
+#    end
+# end
+
+# retry error
+# for i in 1..5
+#    if  i > 2
+#     retry puts "局部变量的值为 #{i}"
+#    end
+# end
 
 
 #声明 code 会在程序的结尾被调用。
