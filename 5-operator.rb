@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # -*- coding: UTF-8 -*-
 
-
+# https://www.runoob.com/ruby/ruby-operator.html
 
 
 # 声明 code 会在程序运行之前被调用 
